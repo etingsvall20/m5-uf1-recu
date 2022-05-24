@@ -1,8 +1,10 @@
-# Activitat: p-git-md-vsc-01
+# RECUPERACIÓ M5 UF1 (recu-m5-uf1)
 
 # git, markdown, vscode
 
 ### Instruccions
+
+Us heu de clonar aquest repositori en el vostre ordinador local, l'examen resolt el pengeu a un repositori al vostre github. Copieu el link al repo en el vostre lliurament del moodle.
 
 > LLegeix detingudament el document de les instruccions, que forma part d'aquest repositori, **abans** de començar.
 
