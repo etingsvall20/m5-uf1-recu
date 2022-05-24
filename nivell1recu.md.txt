@@ -1,0 +1,47 @@
+# Spring framework
+## Història de Spring Framework
+
+<ul>
+	<li>Funcionalitats clau
+		<ul>
+			<li>Gestió de la configuració basada en JavaBeans, aplicant-hi principis d'Inversió de Control, més específicament usant la tècnica d'Injecció de Dependència. Això ajuda a reduir les dependències de components, en implementacions específiques, sobre altres components.</li>
+			<li>Una factoria de Beans central, que és usada globalment.</li>
+			<li>Estratègies preincorporades per la JTA i un sol DataSource de JDBC. Això elimina la dependència en un entorn Java EE pel suport a les transaccions</li>
+		</ul>
+	</li>
+</ul>
+
+<ul>
+	<li>Contenidor d'Inversió de Control : configuració de components d'aplicació i gestió del cicle de vida d'objectes Java</li>
+	<li>Entorn de Programació orientada a aspectes (AOP):</li>
+	<li>Entorn d'accés a les dades: treballant amb sistemes de gestió de bases de dades relacionals, sobre la plataforma Java utilitzant JDBC i eines de mapeig objecte - relacional (JPA, Hibernate...) aportant solucions a reptes tècnics que són reusables en una multitud d'entorns basats en Java.</li>
+	<li>Entorn de gestió de transaccions: harmonització de diferents APIs de gestió de transaccions i orquestració de transaccions configuratives per objectes Java.</li>
+</ul>
+				
+
+[Spring Logo](https://upload.wikimedia.org/wikipedia/commons/4/44/Spring_Framework_Logo_2018.svg)
+
+
+El punt central de **Spring Framework** és el seu contenidor d'*Inversió de Control* que aporta recursos consistents de configuració i gestió d'objectes Java.
+
+
+> Central to the Spring Framework is its inversion of control (IoC) container, which provides a consistent means of configuring and managing Java objects using reflection. The container is responsible for managing object lifecycles of specific objects: creating these objects, calling their initialization methods, and configuring these objects by wiring them together.
+
+
+```
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:mvc="http://www.springframework.org/schema/mvc" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:aop="http://www.springframework.org/schema/aop" 
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc.xsd
+        http://www.springframework.org/schema/aop 
+        http://www.springframework.org/schema/aop/spring-aop.xsd">
+```
+
+
