@@ -27,7 +27,7 @@ Els exercicis de Visual Studio Code es faran al directori ```~/workspaces```.
 
 **Dins del directori de treball** hauràs d'haver-te **clonat** el repositori git on es troba aquest enunciat, de manera que se't crearà un nou directori, que anomenarem **directori d'inici**:
 
-```~/DAW/M051/uf1/aa-m5-uf1ex-username```
+```~/DAW/M051/uf1/aa-m5-uf1-recu-username```
 
 On _username_ és el vostre nom d'usuari de github.
 
